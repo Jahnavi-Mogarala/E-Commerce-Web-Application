@@ -44,7 +44,7 @@ export default async function Home() {
         </div>
         <div className="flex-1 relative">
           <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-accent/30 blur-[100px] -z-10 rounded-full" />
-          <Image src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hero" width={600} height={600} className="rounded-3xl shadow-2xl border border-white/10" priority />
+          <Image src="https://pngimg.com/uploads/macbook/macbook_PNG8.png" alt="Hero Product" width={600} height={600} className="drop-shadow-2xl hover:scale-105 transition-transform duration-700" priority />
         </div>
       </section>
 
