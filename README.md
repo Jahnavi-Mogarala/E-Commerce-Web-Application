@@ -2,6 +2,9 @@
 
 A premium, full-stack E-Commerce Application built with modern technologies.
 
+https://e-commerce-web-application-git-main-jahnavi-mogaralas-projects.vercel.app/
+
+
 ## Tech Stack
 - **Frontend**: Next.js 14 (App Router), React, Tailwind CSS, Framer Motion
 - **Backend**: Next.js API Routes
