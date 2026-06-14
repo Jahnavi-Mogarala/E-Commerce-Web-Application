@@ -10,18 +10,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-background text-foreground overflow-hidden">
-      {/* Navbar */}
-      <nav className="fixed w-full z-50 glass px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-gradient tracking-tighter">NEXT STORE</h1>
-        <div className="flex gap-6 items-center">
-          <Link href="/shop" className="hover:text-primary transition-colors">Shop</Link>
-          <Link href="/login" className="hover:text-primary transition-colors">Login</Link>
-          <button className="relative">
-            <ShoppingCart className="w-6 h-6" />
-            <span className="absolute -top-2 -right-2 bg-primary text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
-          </button>
-        </div>
-      </nav>
+
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
